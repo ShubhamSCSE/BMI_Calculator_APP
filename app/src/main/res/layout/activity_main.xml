@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="#26E6CA"
+    android:id="@+id/layout_main"
+    >
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your weight"
+        android:id="@+id/weight"
+        android:inputType="number"
+        android:layout_margin="10dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your height in ft"
+        android:id="@+id/height_ft"
+        android:inputType="number"
+        android:layout_margin="10dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your height in inch "
+        android:id="@+id/height_inch"
+        android:inputType="number"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:backgroundTint="#AB8B36ED"
+        android:layout_margin="10dp"
+        android:id="@+id/calculate"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/result"
+        />
+
+
+
+
+</LinearLayout>
+
